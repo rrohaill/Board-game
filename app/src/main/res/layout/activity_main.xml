@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:gravity="center"
+        android:stretchColumns="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/btn1"
+                android:text="a" />
+
+            <Button
+                android:id="@+id/btn2"
+                android:text="b" />
+
+            <Button
+                android:id="@+id/btn3"
+                android:text="b" />
+
+            <Button
+                android:id="@+id/btn4"
+                android:text="c" />
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/btn5"
+                android:text="a" />
+
+            <Button
+                android:id="@+id/btn6"
+                android:text="b" />
+
+            <Button
+                android:id="@+id/btn7"
+                android:text="b" />
+
+            <Button
+                android:id="@+id/btn8"
+                android:text="c" />
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/btn9"
+                android:text="d" />
+
+            <Button
+                android:id="@+id/btn10"
+                android:text="e" />
+
+            <Button
+                android:id="@+id/btn11"
+                android:text="e" />
+
+            <Button
+                android:id="@+id/btn12"
+                android:text="f" />
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/btn13"
+                android:text="d" />
+
+            <Button
+                android:id="@+id/btn14"
+                android:text="g" />
+
+            <Button
+                android:id="@+id/btn15"
+                android:text="h" />
+
+            <Button
+                android:id="@+id/btn16"
+                android:text="f" />
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/btn17"
+                android:text="i" />
+
+            <Button
+                android:id="@+id/btn18"
+                android:text="" />
+
+            <Button
+                android:id="@+id/btn19"
+                android:text="" />
+
+            <Button
+                android:id="@+id/btn20"
+                android:text="j" />
+        </TableRow>
+
+        <TableRow>
+
+            <View />
+
+            <Button
+                android:id="@+id/btn21"
+                android:text="z" />
+
+            <Button
+                android:id="@+id/btn22"
+                android:text="z" />
+
+            <View />
+
+
+        </TableRow>
+
+        <View
+            android:layout_height="2dip"
+            android:background="#FF909090" />
+
+    </TableLayout>
+
+</android.support.constraint.ConstraintLayout>

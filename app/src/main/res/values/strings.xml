@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Board Game</string>
+    <string name="exit_game">Exit Game</string>
+    <string name="exit_game_description">Game finished. Thank you for playing.</string>
+</resources>
